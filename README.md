@@ -1,16 +1,25 @@
-# React + Vite
+# 🔴 Pokédex - React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+¡Bienvenido a mi proyecto de Pokédex! Una aplicación web moderna para consultar información sobre Pokémon, construida con las últimas tecnologías de desarrollo web.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologías Usadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-## React Compiler
+> Librerías adicionales: **Axios** para peticiones API y **React Icons** para la interfaz.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📸 Capturas de Pantalla
 
-## Expanding the ESLint configuration
+*(Aquí podrás poner una imagen de tu proyecto cuando lo tengas más avanzado. Por ejemplo:)*
+🚧 **Proyecto en construcción** 🚧
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ Instalación y Uso
+
+Si quieres probar este proyecto en tu computadora:
+
+1. **Clona el repositorio:**
+   ```bash
+   git clone [https://github.com/Axel-recq/Pokedex.git](https://github.com/Axel-recq/Pokedex.git)
