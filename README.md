@@ -12,8 +12,8 @@
 > Librerías adicionales: **Axios** para peticiones API y **React Icons** para la interfaz.
 
 ## 📸 Capturas de Pantalla
-
-*(Aquí podrás poner una imagen de tu proyecto cuando lo tengas más avanzado. Por ejemplo:)*
+![alt text](image.png)
+ 
 🚧 **Proyecto en construcción** 🚧
 
 ## ⚙️ Instalación y Uso
