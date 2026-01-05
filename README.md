@@ -1,25 +1,37 @@
-# 🔴 Pokédex - React App
+# ⚡ Pokédex SPA (React + Vite)
 
-¡Bienvenido a mi proyecto de Pokédex! Una aplicación web moderna para consultar información sobre Pokémon, construida con las últimas tecnologías de desarrollo web.
+Aplicación de Página Única (SPA) de alto rendimiento para la consulta de datos Pokémon, desarrollada implementando una arquitectura modular basada en componentes y consumo de APIs RESTful.
 
-## 🚀 Tecnologías Usadas
+![Status](https://img.shields.io/badge/Status-En_Desarrollo-yellow?style=flat-square)
+![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+## 🛠 Stack Tecnológico
 
-> Librerías adicionales: **Axios** para peticiones API y **React Icons** para la interfaz.
+El proyecto utiliza un stack moderno optimizado para velocidad de desarrollo (DX) y rendimiento en producción:
 
-## 📸 Capturas de Pantalla
-![alt text](image.png)
- 
-🚧 **Proyecto en construcción** 🚧
+| Categoría | Tecnología | Propósito |
+| :--- | :--- | :--- |
+| **Core** | [React 18+](https://react.dev/) | Librería de UI basada en Virtual DOM. |
+| **Build Tool** | [Vite 7+](https://vitejs.dev/) | Bundler de nueva generación (ESM nativo). |
+| **Estilos** | [Sass (SCSS)](https://sass-lang.com/) | Preprocesador CSS con arquitectura de **CSS Modules**. |
+| **HTTP Client** | [Axios](https://axios-http.com/) | Manejo de peticiones asíncronas a la PokeAPI. |
+| **Iconografía** | [React Icons](https://react-icons.github.io/) | Inclusión optimizada de SVGs. |
 
-## ⚙️ Instalación y Uso
+## 🏗 Arquitectura del Proyecto
 
-Si quieres probar este proyecto en tu computadora:
+El proyecto sigue una **Arquitectura basada en Funcionalidades (Feature-based)** con **Colocación (Co-location)**. Cada componente vive en su propia carpeta junto con sus estilos y lógica específica, facilitando la escalabilidad y el mantenimiento.
 
-1. **Clona el repositorio:**
-   ```bash
-   git clone [https://github.com/Axel-recq/Pokedex.git](https://github.com/Axel-recq/Pokedex.git)
+```text
+/src
+├── /api           # Capa de servicios (Configuración de Axios y endpoints)
+│   └── apiRest.js
+├── /assets        # Recursos estáticos (imágenes, SVGs)
+├── /pages         # Vistas principales de la aplicación (Módulos)
+│   └── /home      # Módulo: Página de Inicio
+│       ├── /card    # Componente: Tarjeta de Pokémon (Lógica + Estilos)
+│       ├── /header  # Componente: Cabecera (Lógica + Estilos)
+│       └── /layout  # Componente: Layout principal del Home
+├── /styles        # Estilos globales y resets
+│   └── index.scss
+├── App.jsx        # Componente Raíz y enrutamiento base
+└── main.jsx       # Punto de entrada (Montaje en el DOM)
